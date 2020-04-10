@@ -1,5 +1,6 @@
 <?php
 require_once 'config.php';
+include 'includes/session.php';
 
     if($_POST['act'] == 'rate'){
     	$ip = $_SESSION['user'];
