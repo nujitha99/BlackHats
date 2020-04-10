@@ -47,7 +47,7 @@
 	        	</div>
 	        </div>
 	      </section>
-	     
+
 	    </div>
 	  </div>
   	<?php $pdo->close(); ?>
@@ -177,9 +177,9 @@ paypal.Button.render({
                 transactions: [
                     {
                     	//total purchase
-                        amount: { 
-                        	total: total, 
-                        	currency: 'USD' 
+                        amount: {
+                        	total: total,
+                        	currency: 'USD'
                         }
                     }
                 ]
